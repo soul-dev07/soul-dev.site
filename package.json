@@ -1,5 +1,4 @@
 {
-    "homepage": "https://soul-dev07.github.io/soul-dev.site",
     "name": "noname-agency",
     "private": true,
     "version": "0.0.0",
@@ -8,9 +7,7 @@
         "dev": "vite --host ",
         "build": "vite build",
         "lint": "eslint .",
-        "preview": "vite preview",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "preview": "vite preview"
     },
     "dependencies": {
         "@lottiefiles/dotlottie-react": "^0.8.12",
